@@ -13,3 +13,4 @@ user: kafka-exporter
 group: kafka-exporter
 required_packages:
   - firewalld
+kafka_exporter_service_template: kafka-exporter.service.j2
