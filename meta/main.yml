@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: bilalcaliskan
+  author: mosonyi
   role_name: kafka_exporter
   description: Kafka exporter setup role to provide monitoring over Prometheus
   min_ansible_version: 2.4

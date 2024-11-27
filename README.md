@@ -56,6 +56,18 @@ broker03.example.com
         version: 1.2.0
 ```
 
+If you want to override the service file you can use your own
+
+```yaml
+- hosts: all
+  become: true
+  roles:
+    - role: bilalcaliskan.kafka_exporter
+      vars:
+        kafka_exporter_service_template: "{{ playbook_dir }}/templates/kafka-exporter.service.j2"
+        ...
+```
+
 ### Uninstallation
 
 ```yaml
